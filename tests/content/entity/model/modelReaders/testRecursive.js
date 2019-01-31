@@ -65,6 +65,21 @@ Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glt
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/vertexColor/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/waterBottle/test.js");
 
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/box/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/boxAnimation/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/city/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/duck/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/metalRoughSpheres/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/monster/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/morphCube/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/riggedFigure/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/sparseAccessor/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/specVsMetal/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/textureSettings/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/triangle/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/triangleNoIndices/test.js");
+Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/vertexColor/test.js");
+
 Script.include(testsRootPath + "content/entity/model/modelReaders/fbxReader/still_life/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/fbxReader/simple/test.js");
 

@@ -22,11 +22,11 @@ nitpick.perform("Read GLTF model", Script.resolvePath("."), "secondary", functio
     var testEntity = Entities.addEntity({
         lifetime: LIFETIME,
         type: "Model",
-        // https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/SpecGlossVsMetalRough
-        modelURL: 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/SpecGlossVsMetalRough/glTF-Embedded/SpecGlossVsMetalRough.gltf',
-        position: Vec3.sum(position, {x: 0.0, y: 0.75, z: -3.2 }),
+        // https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/Buggy
+        modelURL: 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Buggy/glTF-Embedded/Buggy.gltf',
+        position: Vec3.sum(position, {x: 1.0, y: 1.0, z: -3.5 }),
         dimensions: Vec3.multiply(50.0, {x: 0.0198, y: 0.0195, z: 0.0202}),
-        rotation: Quat.fromPitchYawRollDegrees(0.0, 0.0, 0.0),
+        rotation: Quat.fromPitchYawRollDegrees(-90.0, -25.0, 0.0),
         visible: true,
         userData: JSON.stringify({ grabbableKey: { grabbable: false } })
     });

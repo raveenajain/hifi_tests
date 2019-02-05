@@ -12,10 +12,6 @@ if (typeof Test !== 'undefined') {
 nitpick.enableRecursive();
 nitpick.enableAuto();
 
-Script.include(testsRootPath + "content/entity/model/renderLayer/hud/test.js");
-Script.include(testsRootPath + "content/entity/model/renderLayer/front/test.js");
-Script.include(testsRootPath + "content/entity/model/modelReaders/objReader/transparent/test.js");
-Script.include(testsRootPath + "content/entity/model/modelReaders/objReader/still_life/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/waterBottle/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/vertexColor/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/unlit/test.js");
@@ -83,9 +79,5 @@ Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glt
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/animatedTriangle/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/animatedCube/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/gltfTestSuite/alphaBlend/test.js");
-Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/box/test.js");
-Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/avocado/test.js");
-Script.include(testsRootPath + "content/entity/model/modelReaders/fbxReader/still_life/test.js");
-Script.include(testsRootPath + "content/entity/model/modelReaders/fbxReader/simple/test.js");
 
 nitpick.runRecursive();

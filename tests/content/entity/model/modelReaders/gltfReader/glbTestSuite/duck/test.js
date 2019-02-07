@@ -26,14 +26,14 @@ nitpick.perform("Read GLTF model", Script.resolvePath("."), "secondary", functio
         modelURL: assetsRootPath + 'models/gltf_models/glb/Duck.glb',
         position: Vec3.sum(position, {x: 0.0, y: 0.75, z: -3.2 }),
         dimensions: Vec3.multiply(50.0, {x: 0.0198, y: 0.0195, z: 0.0202}),
-        rotation: Quat.fromPitchYawRollDegrees(0.0, -25.0, 0.0),
+        rotation: Quat.fromPitchYawRollDegrees(0.0, -30.0, 0.0),
         visible: true,
         userData: JSON.stringify({ grabbableKey: { grabbable: false } })
     });
 
     createdEntities.push(testEntity);
 
-    nitpick.addStepSnapshot("Model is visible");
+    nitpick.addStepSnapshot("Duck.glb Model is visible");
 
     nitpick.addStep("Clean up after test", function () {
         for (var i = 0; i < createdEntities.length; i++) {

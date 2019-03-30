@@ -25,7 +25,7 @@ nitpick.perform("Read GLTF model", Script.resolvePath("."), "secondary", functio
         lifetime: LIFETIME,
         type: "Model",
         // https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/MetalRoughSpheres
-        modelURL: assetsRootPath + 'models/gltf_models/glb/MetalRoughSpheres.glb',
+        modelURL: 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb',
         position: Vec3.sum(position, {x: 0.0, y: 0.9, z: -2.0 }),
         rotation: Quat.fromPitchYawRollDegrees(-90.0, 0.0, 0.0),
         visible: true,

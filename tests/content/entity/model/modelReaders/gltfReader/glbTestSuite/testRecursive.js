@@ -15,7 +15,6 @@ if (typeof depth === 'undefined') {
 
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/waterBottle/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/vertexColor/test.js");
-Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/unlit/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/textureCoordinate/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/specVsMetal/test.js");
 Script.include(testsRootPath + "content/entity/model/modelReaders/gltfReader/glbTestSuite/riggedSimple/test.js");
@@ -49,4 +48,3 @@ if (depth > 0) {
 } else {
    nitpick.runRecursive();
 }
-

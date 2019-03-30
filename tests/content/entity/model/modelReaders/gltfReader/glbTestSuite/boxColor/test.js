@@ -25,7 +25,7 @@ nitpick.perform("Read GLTF model", Script.resolvePath("."), "secondary", functio
         lifetime: LIFETIME,
         type: "Model",
         // https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/BoxVertexColors
-        modelURL: assetsRootPath + 'models/gltf_models/glb/BoxVertexColors.glb',
+        modelURL: 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/BoxVertexColors/glTF-Binary/BoxVertexColors.glb',
         position: Vec3.sum(position, {x: 0.0, y: 0.75, z: -3.2 }),
         rotation: Quat.fromPitchYawRollDegrees(0.0, -25.0, 0.0),
         visible: true,

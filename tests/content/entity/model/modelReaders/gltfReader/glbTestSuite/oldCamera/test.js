@@ -25,7 +25,7 @@ nitpick.perform("Read GLTF model", Script.resolvePath("."), "secondary", functio
         lifetime: LIFETIME,
         type: "Model",
         // https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/AntiqueCamera
-        modelURL: assetsRootPath + 'models/gltf_models/glb/AntiqueCamera.glb',
+        modelURL: 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/AntiqueCamera/glTF-Binary/AntiqueCamera.glb',
         position: Vec3.sum(position, {x: 0.0, y: 1.0, z: -0.8 }),
         rotation: Quat.fromPitchYawRollDegrees(0.0, 0.0, 0.0),
         visible: true,

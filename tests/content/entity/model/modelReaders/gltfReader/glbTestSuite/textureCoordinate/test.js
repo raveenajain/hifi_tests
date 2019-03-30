@@ -25,7 +25,7 @@ nitpick.perform("Read GLTF model", Script.resolvePath("."), "secondary", functio
         lifetime: LIFETIME,
         type: "Model",
         // https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/TextureCoordinateTest
-        modelURL: assetsRootPath + 'models/gltf_models/glb/TextureCoordinateTest.glb',
+        modelURL: 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/TextureCoordinateTest/glTF-Binary/TextureCoordinateTest.glb',
         position: Vec3.sum(position, {x: 0.0, y: 0.75, z: -3.6 }),
         rotation: Quat.fromPitchYawRollDegrees(0.0, 0.0, 0.0),
         visible: true,
